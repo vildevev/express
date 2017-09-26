@@ -10,9 +10,9 @@
  * Module dependencies.
  */
 
-const express = require('../..'),
-path = require('path'),
-redis = require('redis');
+const express = require('../..');
+const path = require('path');
+const redis = require('redis');
 
 const db = redis.createClient();
 
