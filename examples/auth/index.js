@@ -2,11 +2,11 @@
  * Module dependencies.
  */
 
-const express = require('../..'),
-bodyParser = require('body-parser'),
-hash = require('pbkdf2-password')(),
-path = require('path'),
-session = require('express-session');
+const express = require('../..');
+const bodyParser = require('body-parser');
+const hash = require('pbkdf2-password')()
+const path = require('path');
+const session = require('express-session');
 
 const app = module.exports = express();
 
