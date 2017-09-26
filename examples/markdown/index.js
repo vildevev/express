@@ -2,11 +2,11 @@
  * Module dependencies.
  */
 
-const escapeHtml = require('escape-html'),
-express = require('../..'),
-fs = require('fs'),
-marked = require('marked'),
-path = require('path');
+const escapeHtml = require('escape-html');
+const express = require('../..');
+const fs = require('fs');
+const marked = require('marked');
+const path = require('path');
 
 const app = module.exports = express();
 
